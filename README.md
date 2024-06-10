@@ -96,6 +96,7 @@ O particionamento das tabelas é feito pela data de ingestão dos dados seguinto
 'dt_ingestion=YYYY-mm-dd'
 
 Tabelas externas no Big Query:
+
 ![Tabelas externas no Big Query](imgs/external_table_bq.png)
 
 ## Criação da camada de dados Silver
