@@ -81,7 +81,7 @@ Onde a data de ingestão é gerada a cada ciclo de execução.
 
 A estruturação dos diretórios dentro do Data Lake fica da seguinte forma:
 
-AQUI UMA IMAGEM COM A ESTRUTURA DE PASTAS DENTRO DO GCS
+![Estrutura de diretórios no GCS](imgs/estrutura_gcs.png)
 
 ## Criação de tabelas externas no Big Query
 
@@ -95,7 +95,7 @@ O particionamento das tabelas é feito pela data de ingestão dos dados seguinto
 
 'dt_ingestion=YYYY-mm-dd'
 
-COLOCAR IMAGEM DAS TABELAS NO BIG QUERY
+![Tabelas externas no Big Query](imgs/external_table_bq.png)
 
 ## Criação da camada de dados Silver
 
@@ -107,7 +107,11 @@ Os arquivos com as querys de criação das tabelas podem ser encontrados em:
 - dags/silver/despesas.py
 - dags/silver/receitas.py
 
-COLOCAR IMAGEM DAS TABELAS SILVER NO BIG QUERY
+![Silver cotação](imgs/silver_cotacao.png)
+
+![Silver despesa](imgs/silver_despesa.png)
+
+![Silver receita](imgs/silver_receita.png)
 
 ## Criação da tabela final
 
@@ -115,7 +119,7 @@ O arquivo com a query para a construção da tabela final com valores agregados,
 
 - dags/gold/valores_totais_real.py
 
-COLOCAR IMAGEM DA TABELA NO BIG QUERY
+![Tabela Final](imgs/gold_tabela_final.png)
 
 
 ## Criação das DAGs de orquestração
