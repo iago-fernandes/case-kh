@@ -35,7 +35,7 @@ pipenv shell
 
 Instale o Docker Desktop, ele instala o Docker Compose junto por padrão.
 
-Crie um arquivo .yml para as configurações do Airflow local com o conteúdo do arquivo ARQUIVO_YML_EXEMPLO, armazene o arquivo no diretório do projeto. Certifique-se de substituir o campo 'YOUR_FERNET_KEY' no arquivo .yml por uma chave fernet, que pode ser gerada pelo seguinte comando:
+Crie um arquivo .yml para as configurações do Airflow local com o conteúdo do arquivo 'docker-compose-exemplo.yml', armazene o arquivo no diretório do projeto. Certifique-se de substituir o campo 'YOUR_FERNET_KEY' no arquivo .yml por uma chave fernet, que pode ser gerada pelo seguinte comando:
 
 ```sh
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
