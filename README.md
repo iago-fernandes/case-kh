@@ -138,7 +138,7 @@ OBS.: A configuração da conexão do Airflow com o provedor Google é feita a p
 
 ## Perguntas finais
 
-As querys para a contrução das respostas das perguntas são encontradas em:
+As querys para a construção das respostas das perguntas são encontradas em:
 
 - dags/perguntas_finais/perguntas_finais.sql
 
