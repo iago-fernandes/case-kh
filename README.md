@@ -6,9 +6,9 @@ O desafio consiste em desenvolver um ETL para processar arquivos que representam
 ## Índice
 1. [Arquitetura do Projeto](#arquitetura-do-projeto)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. [Preparação do ambiente local](#ambiente)
-4. [Instalação do airflow](#airflow)
-5. [Ingestão dos dados](#ingestão)
+3. [Preparação do ambiente local](#preparação-do-ambiente-local)
+4. [Instalação do airflow](#intalação-do-airflow)
+5. [Ingestão dos dados](#ingestão-dos-dados)
 6. [Estrutura de diretórios no GCS](#estrutura-de-diretórios-no-gcs)
 7. [Criação de tabelas externas no Big Query](#criação-de-tabelas-externas-no-big-query)
 8. [Criação da camada de dados Silver](#criação-da-camada-de-dados-silver)
