@@ -95,6 +95,7 @@ O particionamento das tabelas é feito pela data de ingestão dos dados seguinto
 
 'dt_ingestion=YYYY-mm-dd'
 
+Tabelas externas no Big Query:
 ![Tabelas externas no Big Query](imgs/external_table_bq.png)
 
 ## Criação da camada de dados Silver
@@ -107,10 +108,13 @@ Os arquivos com as querys de criação das tabelas podem ser encontrados em:
 - dags/silver/despesas.py
 - dags/silver/receitas.py
 
+Tabela silver de cotação:
 ![Silver cotação](imgs/silver_cotacao.png)
 
+Tabela silver de despesa:
 ![Silver despesa](imgs/silver_despesa.png)
 
+Tabela silver de receita:
 ![Silver receita](imgs/silver_receita.png)
 
 ## Criação da tabela final
@@ -119,6 +123,7 @@ O arquivo com a query para a construção da tabela final com valores agregados,
 
 - dags/gold/valores_totais_real.py
 
+Tabela Final:
 ![Tabela Final](imgs/gold_tabela_final.png)
 
 
