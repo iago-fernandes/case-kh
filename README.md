@@ -136,6 +136,10 @@ As DAGs para execução do fluxo de orquestração podem ser encontradas em:
 
 OBS.: A configuração da conexão do Airflow com o provedor Google é feita a partir do console do Airflow em 'Admin > Connections', esse id é passado como o parâmetro 'gcp_conn_id' na construção da DAG.
 
+Console do Airflow:
+
+![DAGs](imgs/dags.png)
+
 ## Perguntas finais
 
 As querys para a construção das respostas das perguntas são encontradas em:
